@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:intl/intl.dart';
 
 abstract class AppLocalizations {
   AppLocalizations(String locale) : localeName = Intl.canonicalizedLocale(locale.toString());
@@ -399,8 +400,4 @@ class AppLocalizationsFa extends AppLocalizations {
   String get unknownCategory => 'عمومی';
   @override
   String totalBooks(int count) => '$count کتاب در کتابخانه';
-}
-
-class Intl {
-  static String canonicalizedLocale(String a) => a;
 }
