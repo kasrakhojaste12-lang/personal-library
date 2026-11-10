@@ -1,0 +1,91 @@
+{
+  "@@locale": "fa",
+  "appTitle": "کتابخانه شخصی",
+  "library": "کتابخانه",
+  "addBook": "افزودن کتاب",
+  "editBook": "ویرایش کتاب",
+  "bookDetails": "مشخصات کتاب",
+  "settings": "تنظیمات",
+  "searchPlaceholder": "جستجو بر اساس عنوان، نویسنده، شابک...",
+  "sortBy": "مرتب‌سازی بر اساس",
+  "sortTitleAsc": "عنوان (الف تا ی)",
+  "sortTitleDesc": "عنوان (ی تا الف)",
+  "sortDateDesc": "تاریخ افزودن (جدیدترین)",
+  "sortDateAsc": "تاریخ افزودن (قدیمی‌ترین)",
+  "title": "عنوان",
+  "author": "نویسنده",
+  "publisher": "ناشر",
+  "publicationYear": "سال انتشار",
+  "isbn": "شابک (ISBN)",
+  "category": "دسته‌بندی / موضوع",
+  "notes": "یادداشت‌ها",
+  "quantity": "تعداد موجودی",
+  "createdAt": "تاریخ ثبت",
+  "updatedAt": "آخرین ویرایش",
+  "optional": "اختیاری",
+  "required": "الزامی",
+  "titleRequired": "لطفاً عنوان کتاب را وارد کنید",
+  "authorRequired": "لطفاً نام نویسنده را وارد کنید",
+  "quantityMinError": "تعداد موجودی باید حداقل ۱ باشد",
+  "invalidYearError": "لطفاً سال انتشار معتبر (۴ رقمی) وارد کنید",
+  "bookSaved": "کتاب با موفقیت ذخیره شد",
+  "bookDeleted": "کتاب با موفقیت حذف شد",
+  "deleteBook": "حذف کتاب",
+  "deleteConfirmation": "آیا از حذف کتاب «{title}» اطمینان دارید؟",
+  "@deleteConfirmation": {
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "cancel": "انصراف",
+  "delete": "حذف",
+  "save": "ذخیره",
+  "edit": "ویرایش",
+  "emptyLibraryTitle": "کتابخانه شما خالی است",
+  "emptyLibrarySubtitle": "با افزودن اولین کتاب، مدیریت آفلاین مجموعه خود را آغاز کنید.",
+  "addFirstBook": "افزودن اولین کتاب",
+  "noResultsTitle": "کتابی یافت نشد",
+  "noResultsSubtitle": "هیچ کتابی با عبارت جستجوی شما پیدا نشد. کلمات دیگری را امتحان کنید.",
+  "clearSearch": "پاک کردن جستجو",
+  "appearance": "ظاهر برنامه",
+  "theme": "پوسته",
+  "systemTheme": "پیش‌فرض سیستم",
+  "lightTheme": "روشن",
+  "darkTheme": "تیره",
+  "language": "زبان برنامه",
+  "english": "English (انگلیسی)",
+  "persian": "فارسی",
+  "backupAndRestore": "پشتیبان‌گیری و بازیابی",
+  "exportBackup": "تهیه فایل پشتیبان JSON",
+  "exportSubtitle": "ذخیره یا اشتراک‌گذاری تمام اطلاعات کتابخانه در یک فایل JSON",
+  "importBackup": "بازیابی فایل پشتیبان JSON",
+  "importSubtitle": "بازگردانی کتاب‌ها از فایل پشتیبان JSON قبلی",
+  "importDialogTitle": "بازیابی اطلاعات کتاب‌ها",
+  "importDialogDescription": "روش بازیابی {count} کتاب موجود در فایل پشتیبان را مشخص کنید:",
+  "@importDialogDescription": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "mergeOptionTitle": "ادغام با داده‌های فعلی",
+  "mergeOptionSubtitle": "کتاب‌های جدید اضافه شده و موارد تکراری نادیده گرفته می‌شوند.",
+  "replaceOptionTitle": "جایگزینی کامل داده‌ها",
+  "replaceOptionSubtitle": "تمام کتاب‌های فعلی حذف شده و کتاب‌های فایل پشتیبان جایگزین می‌شوند.",
+  "importSummaryTitle": "عملیات بازیابی انجام شد",
+  "importSummaryMessage": "{imported} کتاب وارد شد، {skipped} مورد تکراری رد شد.",
+  "@importSummaryMessage": {
+    "placeholders": {
+      "imported": { "type": "int" },
+      "skipped": { "type": "int" }
+    }
+  },
+  "exportSuccess": "فایل پشتیبان با موفقیت تهیه شد.",
+  "errorOccurred": "خطایی رخ داده است",
+  "unknownCategory": "عمومی",
+  "totalBooks": "{count} کتاب در کتابخانه",
+  "@totalBooks": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  }
+}

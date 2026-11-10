@@ -1,0 +1,91 @@
+{
+  "@@locale": "en",
+  "appTitle": "Personal Library",
+  "library": "Library",
+  "addBook": "Add Book",
+  "editBook": "Edit Book",
+  "bookDetails": "Book Details",
+  "settings": "Settings",
+  "searchPlaceholder": "Search by title, author, ISBN...",
+  "sortBy": "Sort by",
+  "sortTitleAsc": "Title (A → Z)",
+  "sortTitleDesc": "Title (Z → A)",
+  "sortDateDesc": "Date Added (Newest)",
+  "sortDateAsc": "Date Added (Oldest)",
+  "title": "Title",
+  "author": "Author",
+  "publisher": "Publisher",
+  "publicationYear": "Publication Year",
+  "isbn": "ISBN",
+  "category": "Category / Genre",
+  "notes": "Notes",
+  "quantity": "Quantity",
+  "createdAt": "Added on",
+  "updatedAt": "Updated on",
+  "optional": "Optional",
+  "required": "Required",
+  "titleRequired": "Please enter a title",
+  "authorRequired": "Please enter an author",
+  "quantityMinError": "Quantity must be at least 1",
+  "invalidYearError": "Please enter a valid 4-digit year",
+  "bookSaved": "Book saved successfully",
+  "bookDeleted": "Book deleted successfully",
+  "deleteBook": "Delete Book",
+  "deleteConfirmation": "Are you sure you want to delete \"{title}\"?",
+  "@deleteConfirmation": {
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "save": "Save",
+  "edit": "Edit",
+  "emptyLibraryTitle": "Your library is empty",
+  "emptyLibrarySubtitle": "Start building your offline collection by adding your first book.",
+  "addFirstBook": "Add Your First Book",
+  "noResultsTitle": "No books found",
+  "noResultsSubtitle": "No books matched your search query. Try different keywords.",
+  "clearSearch": "Clear Search",
+  "appearance": "Appearance",
+  "theme": "Theme",
+  "systemTheme": "System Default",
+  "lightTheme": "Light",
+  "darkTheme": "Dark",
+  "language": "Language",
+  "english": "English",
+  "persian": "فارسی (Persian)",
+  "backupAndRestore": "Backup & Restore",
+  "exportBackup": "Export Backup",
+  "exportSubtitle": "Save or share your library as a single JSON file",
+  "importBackup": "Import Backup",
+  "importSubtitle": "Restore books from a JSON backup file",
+  "importDialogTitle": "Import Backup",
+  "importDialogDescription": "Choose how you want to restore the {count} books from the backup file:",
+  "@importDialogDescription": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "mergeOptionTitle": "Merge with existing data",
+  "mergeOptionSubtitle": "Adds new books while automatically skipping exact duplicates.",
+  "replaceOptionTitle": "Replace all existing data",
+  "replaceOptionSubtitle": "Wipes your current library and restores the backup books.",
+  "importSummaryTitle": "Import Completed",
+  "importSummaryMessage": "{imported} books imported, {skipped} skipped.",
+  "@importSummaryMessage": {
+    "placeholders": {
+      "imported": { "type": "int" },
+      "skipped": { "type": "int" }
+    }
+  },
+  "exportSuccess": "Backup exported successfully.",
+  "errorOccurred": "An error occurred",
+  "unknownCategory": "General",
+  "totalBooks": "{count} books in library",
+  "@totalBooks": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  }
+}
