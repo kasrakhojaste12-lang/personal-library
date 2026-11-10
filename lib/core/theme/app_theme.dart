@@ -34,7 +34,7 @@ class AppTheme {
         backgroundColor: Color(0xFFF8FAFC),
         surfaceTintColor: Colors.transparent,
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 0,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),
@@ -78,8 +78,8 @@ class AppTheme {
           foregroundColor: Colors.white,
         ),
       ),
-      dialogTheme: DialogTheme(
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+      dialogTheme: const DialogThemeData(
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(20))),
         elevation: 6,
       ),
     );
@@ -107,7 +107,7 @@ class AppTheme {
         backgroundColor: Color(0xFF0F172A),
         surfaceTintColor: Colors.transparent,
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 0,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),
@@ -151,8 +151,8 @@ class AppTheme {
           foregroundColor: Colors.white,
         ),
       ),
-      dialogTheme: DialogTheme(
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+      dialogTheme: const DialogThemeData(
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(20))),
         elevation: 6,
       ),
     );

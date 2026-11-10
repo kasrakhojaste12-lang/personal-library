@@ -41,7 +41,7 @@ class _BookDetailsScreenState extends ConsumerState<BookDetailsScreen> {
 
   Future<void> _deleteBook() async {
     if (_book == null) return;
-    final l10n = AppLocalizations.of(context);
+    final l10n = AppLocalizations.of(context)!;
 
     final confirmed = await showDialog<bool>(
       context: context,
@@ -94,7 +94,7 @@ class _BookDetailsScreenState extends ConsumerState<BookDetailsScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context);
+    final l10n = AppLocalizations.of(context)!;
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final locale = Localizations.localeOf(context).languageCode;

@@ -65,7 +65,7 @@ class _AddEditBookScreenState extends ConsumerState<AddEditBookScreen> {
     }
 
     setState(() => _isSaving = true);
-    final l10n = AppLocalizations.of(context);
+    final l10n = AppLocalizations.of(context)!;
 
     try {
       final yearText = _yearController.text.trim();
@@ -121,7 +121,7 @@ class _AddEditBookScreenState extends ConsumerState<AddEditBookScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context);
+    final l10n = AppLocalizations.of(context)!;
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
 

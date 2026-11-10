@@ -17,7 +17,7 @@ class BookListScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final l10n = AppLocalizations.of(context);
+    final l10n = AppLocalizations.of(context)!;
     final booksAsync = ref.watch(bookListNotifierProvider);
     final totalCountAsync = ref.watch(totalBooksCountProvider);
     final currentSort = ref.watch(sortOptionProvider);
