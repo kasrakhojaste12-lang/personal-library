@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../../l10n/app_localizations.dart';
 import '../../../settings/presentation/screens/settings_screen.dart';
-import '../../domain/models/book.dart';
 import '../providers/book_providers.dart';
 import '../widgets/book_card.dart';
 import '../widgets/empty_state_view.dart';
@@ -23,7 +22,6 @@ class BookListScreen extends ConsumerWidget {
     final currentSort = ref.watch(sortOptionProvider);
     final searchQuery = ref.watch(searchQueryProvider);
     final theme = Theme.of(context);
-    final colorScheme = theme.colorScheme;
 
     return Scaffold(
       appBar: AppBar(
