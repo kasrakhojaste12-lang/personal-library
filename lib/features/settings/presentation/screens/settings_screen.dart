@@ -211,7 +211,7 @@ class SettingsScreen extends ConsumerWidget {
                         const CircularProgressIndicator(),
                         const SizedBox(height: 16),
                         Text(
-                          (backupState as BackupLoading).message,
+                          backupState.message,
                           style: const TextStyle(fontWeight: FontWeight.bold),
                         ),
                       ],
